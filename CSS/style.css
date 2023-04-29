@@ -1,0 +1,34 @@
+/* Set the style for the entire page */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set the style for the navigation bar */
+  .navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+    width: 200px;
+    transition: width 0.5s;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Change the background color of links on hover */
+  .navbar a:hover {
+    background-color: gray;
+  }
+  
+  /* Adjust width of navigation bar when it's toggled */
+  .navbar.width-toggle {
+    width: 50px;
+  }  
