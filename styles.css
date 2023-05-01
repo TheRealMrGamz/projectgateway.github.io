@@ -93,12 +93,12 @@
 
 .button:hover {
     background: #1F51FF;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
 }
 
 .navbar__links:hover {
     color: #9D00FF;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 960px) {
@@ -120,7 +120,7 @@
         position: absolute;
         top: -1000px;
         opacity: 1;
-        transition: all 0.5s ease;
+        transition: all 0.3s ease;
         height: 50vh;
         z-index: -1;
         background: #131313;
@@ -130,7 +130,7 @@
         background: #131313;
         top: 100%;
         opacity: 1;
-        transition: all 0.5s ease;
+        transition: all 0.3s ease;
         z-index: 99;
         height: 58vh;
         font-size: 1.6rem;
@@ -144,7 +144,7 @@
         width: 25px;
         height: 3px;
         margin: 5px auto;
-        transition: all 0.5s ease-in-out;
+        transition: all 0.3s ease-in-out;
         background: #fff;  
     }
 
